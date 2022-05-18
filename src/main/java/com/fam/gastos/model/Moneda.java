@@ -10,8 +10,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "monedas")
 public class Moneda {
-	@Column(name="id_moneda")
+	@Column(name = "id_moneda")
 	private Integer idMoneda;
+	@Column(name = "descripcion")
 	private String descripcion;
 	
 	public Moneda() {
